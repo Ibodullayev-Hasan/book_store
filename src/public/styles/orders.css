@@ -34,6 +34,7 @@ body {
   height: 100%;
   padding: 10px;
 }
+
 .imgs {
   box-shadow: 0 10px 20px black;
   width: 70%;
@@ -45,11 +46,13 @@ body {
   top: 5px;
   border-radius: 8px;
 }
+
 #leftBox {
   padding: 0;
   margin: 0;
   border-left: none;
 }
+
 #rightBox {
   padding: 0;
   margin: 0;
@@ -86,6 +89,7 @@ body {
     color: white;
   }
 }
+
 .text-title {
   padding-top: 20px;
   font-size: 22px;
@@ -99,27 +103,107 @@ body {
   position: relative;
   padding-left: 10px;
   top: 10vh;
- margin-bottom: 10px;
+  margin-bottom: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: 1px solid black;
   background-color: rgba(190, 185, 185, 0.669);
 }
 
-form{
-    width: 100%;
-  }
-  .inputs {
-    width: 50%;
-    position: relative;
-    top: 2vh;
+form {
+  width: 100%;
+}
+
+.inputs {
+  width: 50%;
+  position: relative;
+  top: 2vh;
   height: 100%;
-  input{
+
+  input {
     margin-top: 15px;
   }
 }
 
-.btn{
+.btn {
   position: relative;
   margin-bottom: 20px;
+}
+
+/* Responsivlik qo'shildi */
+@media (max-width: 1200px) {
+  .product_info {
+    width: 90%;
+  }
+
+  .imgs {
+    width: 80%;
+  }
+
+  .doubl {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product_info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgs {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 80px;
+  }
+
+  .forms {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .inputs {
+    width: 100%;
+  }
+
+  .btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 70px;
+  }
+
+  .imgs {
+    width: 100%;
+  }
+
+  .forms {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .inputs {
+    width: 100%;
+  }
+
+  .doubl {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn {
+    width: 100%;
+  }
 }

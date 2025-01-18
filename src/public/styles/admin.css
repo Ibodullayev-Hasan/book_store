@@ -12,6 +12,7 @@
   object-fit: cover;
   box-shadow: 10px 10px 18px black;
 }
+
 .admin {
   font-size: 0.95rem;
 }
@@ -20,6 +21,7 @@
   position: relative;
   float: right;
 }
+
 .tbody {
   padding-top: 8px;
 }
@@ -32,9 +34,10 @@
   overflow-y: scroll;
   position: relative;
   border-bottom: 2px dashed black;
-  h1 {
-    margin-top: 10px;
-  }
+}
+
+.books h1 {
+  margin-top: 10px;
 }
 
 .Orders {
@@ -78,4 +81,67 @@
   top: 0vh;
   width: 100%;
   background-color: rgb(255, 255, 255);
+}
+
+/* Responsivlik qo‘shildi */
+@media (max-width: 1200px) {
+  #imgs {
+    width: 100px;
+    height: 100px;
+  }
+  .books,
+  .Orders,
+  .authors,
+  .categorys {
+    height: 50vh;
+  }
+  .adminText {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #imgs {
+    width: 80px;
+    height: 80px;
+  }
+  .admin {
+    font-size: 0.85rem;
+  }
+  .books,
+  .Orders,
+  .authors,
+  .categorys {
+    height: 40vh;
+    margin: 30px 0;
+  }
+  .adminText {
+    top: 3vh;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .home {
+    float: none;
+    text-align: center;
+  }
+  .admin {
+    font-size: 0.8rem;
+  }
+  #imgs {
+    width: 60px;
+    height: 60px;
+  }
+  .books,
+  .Orders,
+  .authors,
+  .categorys {
+    height: 35vh;
+    margin: 20px 0;
+  }
+  .adminText {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
 }

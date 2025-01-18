@@ -3,7 +3,7 @@ const { readFile, writeFile } = require("../utils/fs");
 const getAdmin = (req, res) => {
   let bookFile = readFile("books");
   const orderFile = readFile("orders");
-  console.log(orderFile);
+  // console.log(orderFile);
   
   let authorFile = readFile("author");
   let categoryFile = readFile("categorys")
