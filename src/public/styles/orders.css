@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+
+body {
+  font-family: "Varela", sans-serif;
+}
+
+.product_info {
+  margin: 0 auto;
+  padding: 0;
+  width: 1350px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 4rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+  }
+}
+
+.imgsDiv {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.imgs {
+  box-shadow: 0 10px 20px black;
+  width: 70%;
+  height: 99%;
+  padding: 5px;
+  object-fit: fill;
+  display: block;
+  position: relative;
+  top: 5px;
+  border-radius: 8px;
+}
+#leftBox {
+  padding: 0;
+  margin: 0;
+  border-left: none;
+}
+#rightBox {
+  padding: 0;
+  margin: 0;
+  border-right: none;
+}
+
+.doubl {
+  width: 50%;
+  height: 545px;
+  padding: 0;
+  margin: 0;
+  border: 2px solid black;
+  position: relative;
+}
+
+#link {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  position: relative;
+  top: 10vh;
+
+  a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(207, 5, 22);
+    margin: 0 auto;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+  }
+}
+.text-title {
+  padding-top: 20px;
+  font-size: 22px;
+  border-bottom: 3px double blue;
+  overflow-x: hidden;
+}
+
+.forms {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-left: 10px;
+  top: 10vh;
+ margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  background-color: rgba(190, 185, 185, 0.669);
+}
+
+form{
+    width: 100%;
+  }
+  .inputs {
+    width: 50%;
+    position: relative;
+    top: 2vh;
+  height: 100%;
+  input{
+    margin-top: 15px;
+  }
+}
+
+.btn{
+  position: relative;
+  margin-bottom: 20px;
+}

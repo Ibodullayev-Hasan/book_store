@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "book": {
+      "id": 4,
+      "title": "Otkan kunlar",
+      "desc": "Best Seller kitoblardan",
+      "count": 4,
+      "price": 10,
+      "authorId": 1,
+      "categorysId": 1,
+      "img": "https://kitobxon.com/img_knigi/1447.jpg"
+    },
+    "clientName": "Olim",
+    "clientPhone": "998996250525",
+    "countOrder": "3",
+    "adress": "Samarqand viloyati"
+  },
+  {
+    "id": 2,
+    "book": {
+      "id": 1,
+      "title": "Otkan kunlar",
+      "desc": "Best Seller kitoblardan",
+      "count": 4,
+      "price": 10,
+      "authorId": 1,
+      "categorysId": 1,
+      "img": "https://kitobxon.com/img_knigi/1447.jpg"
+    },
+    "clientName": "Alex",
+    "clientPhone": "1985235648",
+    "countOrder": "8",
+    "adress": "USA"
+  },
+  {
+    "id": 3,
+    "book": {
+      "id": 2,
+      "title": "Shumbola",
+      "count": "90",
+      "price": "60000",
+      "authorId": "2",
+      "categorysId": "1",
+      "img": "https://kitobxon.com/img_knigi/2099.jpg",
+      "desc": "shum bola sarguzasht asar"
+    },
+    "clientName": "Jack",
+    "clientPhone": "165585852855",
+    "countOrder": "1",
+    "adress": "UK"
+  },
+  {
+    "id": 4,
+    "book": {
+      "id": 4,
+      "title": "Kapitan Grant Bolalari",
+      "count": "28",
+      "price": "50000",
+      "authorId": "2",
+      "categorysId": "3",
+      "img": "https://images.uzum.uz/ck2l2ncjvf2qegt3ote0/original.jpg",
+      "desc": "Mahsulot ta'rifi\r\n1864-yil 26-iyulda lord Eduard Glenarvanga tegishli yaxta matroslari ulkan bolgʻa baliqni tutib oldilar."
+    },
+    "clientName": "Alex",
+    "clientPhone": "998906877077",
+    "countOrder": "1",
+    "adress": "Toshkent shahri"
+  },
+  {
+    "id": 5,
+    "book": {
+      "id": 3,
+      "title": "Sherlock Holmes ",
+      "count": "50",
+      "price": "100000",
+      "authorId": "1",
+      "categorysId": "2",
+      "img": "https://kitobxon.com/img_knigi/2060.jpg",
+      "desc": "Arthur Conan Doyleʼning asarlari qahramonlari detektiv Sherlock Holmes va doktor John Watson yodgorligi Conan Doyleʼning buyuk detektivning sarguzashtlari haqidagi „Scarletdagi tadqiqot“ hikoyasi nashr etilganining 120-yilligi munosabati bilan ochildi. "
+    },
+    "clientName": "Kate",
+    "clientPhone": "15693399956",
+    "countOrder": "1",
+    "adress": "Australiya"
+  },
+  {
+    "id": 6,
+    "book": {
+      "id": 6,
+      "title": "Essential Grammer In Use",
+      "count": "30",
+      "price": "32000",
+      "authorId": "Rymond Murphy",
+      "categorysId": "Manaviy",
+      "img": "Фазилатли шайх Муҳаммад Содиқ Муҳаммад Юсуф ҳазратлари 2012 йил муборак Рамазон ойи давомида ҳар кун..",
+      "desc": "Gramatika uchun ajoyib kitob"
+    },
+    "clientName": "Kamina",
+    "clientPhone": "998996878077",
+    "countOrder": "1",
+    "adress": "Samarqand viloyati, Kattaqo'rg'on tumani"
+  },
+  {
+    "id": 7,
+    "book": {
+      "id": 3,
+      "title": "Sherlock Holmes ",
+      "count": "50",
+      "price": "100000",
+      "authorId": "Abdulla Qodiriy",
+      "categorysId": "Sarguzasht",
+      "img": "https://kitobxon.com/img_knigi/2060.jpg",
+      "desc": "Arthur Conan Doyleʼning asarlari qahramonlari detektiv Sherlock Holmes va doktor John Watson yodgorligi Conan Doyleʼning buyuk detektivning sarguzashtlari haqidagi „Scarletdagi tadqiqot“ hikoyasi nashr etilganining 120-yilligi munosabati bilan ochildi. "
+    },
+    "clientName": "Hasan",
+    "clientPhone": "998996878077",
+    "countOrder": "1",
+    "adress": "Uzbekistan, Samarqand viloyati"
+  },
+  {
+    "id": 8,
+    "book": {
+      "id": 4,
+      "title": "Kapitan Grant Bolalari",
+      "count": "28",
+      "price": "50000",
+      "authorId": "Cho'lpon",
+      "categorysId": "Fantastik",
+      "img": "https://images.uzum.uz/ck2l2ncjvf2qegt3ote0/original.jpg",
+      "desc": "Mahsulot ta'rifi\r\n1864-yil 26-iyulda lord Eduard Glenarvanga tegishli yaxta matroslari ulkan bolgʻa baliqni tutib oldilar."
+    },
+    "clientName": "Toshmat",
+    "clientPhone": "998907770099",
+    "countOrder": "2",
+    "adress": "Urgut tumani"
+  }
+]

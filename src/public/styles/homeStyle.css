@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid blue; */
+}
+
+/* coverage div */
+
+.box {
+  margin: 3px auto;
+  padding: 0;
+  width: 1450px;
+  height: auto;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 40rem;
+  margin: 0;
+  padding: 0;
+  /* background-image: url("/images/k6.jpg"); */
+  background-image: linear-gradient(rgb(255, 69, 78), rgb(255, 66, 104));
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(110%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  border-radius: 10px;
+  /* filter: blur(.9px); */
+}
+
+.nameSite{
+  position: relative;
+  top: -15vh;
+  color: white;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 6rem;
+ 
+}
+
+.btnHead{
+ position: relative;
+ top: 15vh;
+ margin: 20px;
+}
+
+
+
+/* main */
+main {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 25px 0 5px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/*  go top */
+#toTop {
+  display: block;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  right: 20vh;
+  top: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  transform: rotate(-180deg);
+}
+
+#toTop div {
+  width: 16px;
+  height: 2.7px;
+  position: relative;
+  background-color: rgb(120, 118, 118);
+  transition: ease 1.5s;
+}
+
+#toTop div:nth-child(1) {
+  transform: rotate(-60deg);
+  right: -4px;
+}
+#toTop div:nth-child(2) {
+  transform: rotate(60deg);
+  left: -4px;
+}
+
+#toTop:hover {
+  background-color: #0c0c0cee;
+  transform: rotate(0deg);
+  div {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    top: -5px;
+  }
+}
+
+#cardStyle {
+  width: 23rem;
+  height: 35rem;
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+  background-color: transparent;
+  border: 1px double black;
+ 
+}
+.imgCard {
+  width: 100%;
+  height: 48%;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+.imgCard img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  border: none;
+  margin: 0;
+  position: relative;
+  
+}
+
+.tavsif {
+  background-color: rgba(206, 202, 202, 0.258);
+  position: relative;
+  width: 100%;
+  height: 28px;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: sans-serif;
+  
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <!-- link scc from bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/styles/orders.css">
+</head>
+<body>
+    
+    <div class="product_info">
+        <h1>Order Page</h1>
+       <div class="doubl" id="leftBox">
+        <p class="text-title">Nomi: <%= book_id.title %></p>
+        <p class="text-title"> Tavsif: <%= book_id.desc %></p>
+        <p class="text-title">Mavjud kitob soni: <%= book_id.count %> ta mavjud</p>
+        <p class="text-title"> Narxi:<%= book_id.price %> so'm</p>
+        <p class="text-title"> Muallif: <%= book_id.authorId %></p>
+        <p class="text-title"> Turkumi: <%= book_id.categorysId %></p>
+       </div>
+
+       <div  id="rightBox" class="doubl">
+           <div class="imgsDiv">
+             <img class="imgs" src= <%=book_id.img %> alt=<%= book_id.name %> >
+            </div>                   
+       </div>
+
+       <div class="forms">
+       <form action="/order/post" method="post">
+        <div class="inputs">
+            <select name="book_id" class="form-control mb-4">
+                <option selected value=<%= book_id.id   %> ><%= book_id.title %></option>
+            </select>
+
+       <input class="form-control" type="text" name="clientName" required placeholder="Ismingizni kiriting">
+       <input class="form-control" type="number" name="clientPhone" required placeholder="Telefon raqamingizni kiriting">
+       <input id="countProduct" class="form-control"  min="1" max="10" type="number" name="countOrder" required placeholder="Nechta olmoqchisiz">
+       <input class="form-control  mb-4" type="text" name="adress" required placeholder="Manzilingizni kiriting">
+       <!-- button -->
+             <button id="buyProduct" type="submit"  class="btn btn-success">Buyrtirish</button>
+            </div>
+       </form>
+       </div>
+        <div id="link">
+            <a href="/">back home</a>
+        </div>
+    </div>
+
+    <!-- script -->
+     <script src="/javaScript/orderScript.js"></script>
+</body>
+</html>
