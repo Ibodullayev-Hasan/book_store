@@ -20,8 +20,8 @@ header {
   height: 40rem;
   margin: 0;
   padding: 0;
-  /* background-image: url("/images/k6.jpg"); */
-  background-image: linear-gradient(rgb(255, 69, 78), rgb(255, 66, 104));
+  background-image: url("/images/k1.jpg");
+  /* background-image: url('');   */
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(110%);
