@@ -14,5 +14,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use(router);
 
 app.listen(9000, () => {
-  console.log(`9000 - port is started from folder /Imtihon_4_oy folder`);
+  console.log(`Server run 🚀 `);
 });
