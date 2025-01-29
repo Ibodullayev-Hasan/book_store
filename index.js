@@ -1,7 +1,7 @@
 const express = require("express");
 let cookieParser = require("cookie-parser");
 const path = require("path");
-const router = require("./Routes/indexRout");
+const router = require("./src/Routes/indexRout");
 
 const app = express();
 
